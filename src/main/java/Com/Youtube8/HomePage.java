@@ -14,7 +14,7 @@ public class HomePage extends Util {
         LoadProp loadProp = new LoadProp();
         BrowserSelector browserSelector = new BrowserSelector();
         browserSelection();
-
+//add git
         //for open url
         driver.get(loadProp.getProperty("url"));
         // click on  search box
